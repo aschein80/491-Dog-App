@@ -4,63 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HelpActivity">
+    tools:context=".ContactActivity">
 
     <TextView
-        android:id="@+id/helpTextView"
-        android:layout_width="157dp"
-        android:layout_height="61dp"
-        android:text="Help Page"
-        android:textAlignment="center"
+        android:id="@+id/contactTextView"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:text="Contact Us"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/contactDetailsTextView"
+        android:layout_width="333dp"
+        android:layout_height="201dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <TextView
+        android:id="@+id/supportTextView"
+        android:layout_width="334dp"
+        android:layout_height="80dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
 
     <Button
-        android:id="@+id/exitHelpBtn"
+        android:id="@+id/exitBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exit Help"
+        android:text="Exit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
-
-    <Button
-        android:id="@+id/contactBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Contact Us"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281" />
-
-    <Button
-        android:id="@+id/tosBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Terms Of Service"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672" />
-
-    <Button
-        android:id="@+id/privacyBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Privacy Policy"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472" />
+        app:layout_constraintVertical_bias="0.959" />
 </androidx.constraintlayout.widget.ConstraintLayout>

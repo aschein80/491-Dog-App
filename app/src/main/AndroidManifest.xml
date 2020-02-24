@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HelpActivity"></activity>
+        <activity android:name=".TOSActivity"></activity>
+        <activity android:name=".PrivacyActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".HelpActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".SettingsActivity" />
         <activity
