@@ -43,4 +43,28 @@
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="center" />
 
+    <Button
+        android:id="@+id/settingsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="end|bottom" />
+
+    <Button
+        android:id="@+id/profileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="start|bottom" />
+
+    <Button
+        android:id="@+id/helpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        app:layout_anchor="@+id/settingsBtn"
+        app:layout_anchorGravity="start|center" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

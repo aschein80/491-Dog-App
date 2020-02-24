@@ -10,4 +10,9 @@
     <string name="logout">Logout</string>
     <string name="Tester">Test</string>
     <string name="press_me">Press Me</string>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 </resources>
