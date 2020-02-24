@@ -32,7 +32,7 @@ public class TOSActivity extends AppCompatActivity {
                 "\n" +
                 "\n" +
                 " \n" +
-                "Barkr is licensed to You (End-User) by Asian Fit Boys, located at __________, __________, California __________, United States (hereinafter: Licensor), for use only under the terms of this License Agreement.\n" +
+                "Barkr is licensed to You (End-User) by Asian Fit Boys, located at California, United States (hereinafter: Licensor), for use only under the terms of this License Agreement.\n" +
                 " \n" +
                 "By downloading the Application from the Apple AppStore, and any update thereto (as permitted by this License Agreement), You indicate that You agree to be bound by all of the terms and conditions of this License Agreement, and that You accept this License Agreement.\n" +
                 " \n" +
@@ -113,9 +113,6 @@ public class TOSActivity extends AppCompatActivity {
                 "For general inquiries, complaints, questions or claims concerning the licensed Application, please contact:\n" +
                 "     \n" +
                 "Barkr Support Desk\n" +
-                "__________\n" +
-                "__________, __________ __________\n" +
-                "__________\n" +
                 "barkrsupportdesk@gmail.com\n" +
                 "                          \n" +
                 "10. TERMINATION       \n" +
