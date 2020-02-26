@@ -86,7 +86,7 @@ public class TOSActivity extends AppCompatActivity {
                 "\n" +
                 "6.2  No warranty is provided for the Application that is not executable on the device, that has been unauthorizedly modified, handled inappropriately or culpably, combined or installed with inappropriate hardware or software, used with inappropriate accessories, regardless if by Yourself or by third parties, or if there are any other reasons outside of Asian Fit Boys's sphere of influence that affect the executability of the Application.\n" +
                 "\n" +
-                "6.3  You are required to inspect the Application immediately after installing it and notify Asian Fit Boys about issues discovered without delay by e-mail provided in Product Claims. The defect report will be taken into consideration and further investigated if it has been mailed within a period of __________ days after discovery.\n" +
+                "6.3  You are required to inspect the Application immediately after installing it and notify Asian Fit Boys about issues discovered without delay by e-mail provided in Product Claims. The defect report will be taken into consideration and further investigated if it has been mailed within a period of N/A days after discovery.\n" +
                 "\n" +
                 "6.4  If we confirm that the Application is defective, Asian Fit Boys reserves a choice to remedy the situation either by means of solving the defect or substitute delivery.\n" +
                 "\n" +
