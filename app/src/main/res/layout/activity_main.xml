@@ -67,4 +67,12 @@
         app:layout_anchor="@+id/settingsBtn"
         app:layout_anchorGravity="start|center" />
 
+    <Button
+        android:id="@+id/userProfileBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        app:layout_anchor="@+id/profileBtn"
+        app:layout_anchorGravity="end|center" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

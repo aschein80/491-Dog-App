@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     Button SettingsButton;
     Button ProfileButton;
     Button HelpButton;
+    Button UserProfileButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +78,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent helpIntent = new Intent(getApplicationContext(), HelpActivity.class);
                 startActivity(helpIntent);
+            }
+        });
+
+        //other user profile
+        //HELP PAGE CODE
+        UserProfileButton = (Button) findViewById(R.id.userProfileBtn);
+        UserProfileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent userProfileIntent = new Intent(getApplicationContext(), UserProfileActivity.class);
+                startActivity(userProfileIntent);
             }
         });
     }
